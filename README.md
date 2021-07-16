@@ -14,7 +14,7 @@ Then run
 This will create a file 'my_avatar.asm' at your current location which contains code in MIPS assembly can be used to display airplane on bitmap display.
 
 ### How to change the default avatar
-Open the file [Avatar_asm_gen.c][Avatar_asm_gen.c].
+Open the file Avatar_asm_gen.c.
 
 Change color selection: in #define, you can change/add colors as you like and its definitions. (don't forget to change the part in "Write start and initialize the registers" where COLOR1, COLOR2, COLOR3, COLOR4, COLOR5 are used corresponding to your change of definition of macro and the part in the output string to match your design)
 
